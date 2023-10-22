@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.box-contact {
+    background-image: url('../../assets/oração2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background-color: rgba(65, 84, 107, 0.7);
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+section h2 {
+    color: #f2f2f2;
+    font-size: 35px;
+    background-color: transparent;
+    padding: 15px;
+}
+
+#pray {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+
+form label {
+    color: #f2f2f2;
+    font-size: 17px;
+    margin-bottom: 4px;
+    background-color: transparent;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    color: black;
+}
+
+input:focus {
+    border-radius:16px;
+}
+
+textarea {
+    padding: 10px;
+    height: 150px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    color: rgb(0, 4, 7);
+}
+
+textarea:focus {
+    border-radius: 16px;
+}
+
+button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #233750;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+    color: #f2f2f2;
+    transition: all 1s;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: rgba(65, 84, 107, 0.1);
+    border-radius: 16px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#atribuicao {
+    position:absolute;
+    right: 25px;
+    bottom: 0;
+}
+
+#thanks {
+    color:#f2f2f2;
+}
+
+@media(max-width:768px) {
+
+    .box-contact {
+        width: 100%;
+        color: #f2f2f2;
+        font-size: 20px;
+    }
+    
+    section {
+        width: 580px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    #pray {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:360px) {
+
+    .box-contact {
+        width: 100%;
+        color: #f2f2f2;
+        font-size: 20px;
+    }
+    
+    section {
+        width: 580px;
+    }
+
+    section h2 {
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    #pray {
+        font-size: 20px;
+    }
+}

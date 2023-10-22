@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #f2f2f2;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 1.5s;
+    padding: 5px;
+}
+
+li:hover {
+    color: #1AEB4B;
+    scale: 1.1;
+}
+
+#Logo {
+    width: 150px;
+    height: auto;
+}
+
+@media(max-width:768px) {
+
+    nav {
+        display: none;
+    }
+}

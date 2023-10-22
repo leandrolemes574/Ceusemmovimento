@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Pacifico&family=Roboto:wght@300;400&display=swap');
+
+#banner {
+    background-image: url('../../assets/simplicidade.jpg');
+    width: 100%;
+    height: 600px;
+    background-position: 50% 50%;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #f2f2f2;
+    font-size: 2.8rem;
+    transition: 1.55s;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    transition: 1.55s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h1:hover {
+    color: #1AEB4B;
+    font-weight: bold;
+    transition: 1.55s;
+    scale: 1.1;
+}
+
+
+h2:hover {
+    color: #429656;
+    transition: 1.55s;
+    scale: 1.1;
+}
+
+.text-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    background-color: #f2f2f2;
+    border-bottom: #222 solid 1px;
+}
+
+p {
+    color: #222;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    padding: 15px;
+}
+
+
+@media (max-width: 768px) {
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}

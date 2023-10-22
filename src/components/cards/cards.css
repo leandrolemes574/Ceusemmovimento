@@ -1,0 +1,93 @@
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 0 20px 10px;
+    color: #f2f2f2;
+    font-size: 32px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    color: cyan;
+}
+
+.banner-1 {
+    background-image: url('../../assets/pdf.jpg');
+}
+
+.banner-2 {
+    background-image: url("../../assets/cultooracao.jpg");
+}
+
+.banner-3 {
+    background-image: url("../../assets/cultoadoração.jpg");
+}
+
+.content-atb {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #f2f2f2;
+}
+
+.atb-container {
+    position: relative;
+}
+
+.atb-dv1 {
+    position: absolute;
+    bottom: -260px;
+}
+
+.atb-dv2 {
+    position: absolute;
+    bottom: -260px;
+}
+
+.atb-dv3 {
+    position: absolute;
+    bottom: -260px;
+}
+
+.atb-card {
+    font-size: 12px;
+    color: #f2f2f2;
+    margin-right: 5px;
+}
+
+@media(max-width:768px) {
+    
+.cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+}
+}
+

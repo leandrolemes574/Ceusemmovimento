@@ -1,0 +1,72 @@
+
+.mensagem-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h3 {
+    color: #000;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+h4 {
+    color: #000;
+    font-size: 1.6rem;
+    padding: 15px;
+}
+
+.bible-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+#text-bible {
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    row-gap: 8px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#btn-prev {
+    background-color: #f2f2f2;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#btn-next {
+    background-color: #f2f2f2;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#btn-prev:hover {
+    background-color: #000;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-weight: 100;
+}
+
+#btn-next:hover {
+    background-color: #000;
+    color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    #text-bible {
+        width: 90%;
+        padding: 15px 5px;
+    }
+}
